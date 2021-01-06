@@ -27,11 +27,11 @@ export class Wave {
   draw(ctx) {
     ctx.beginPath();
     ctx.fillStyle = '#ff0000';
-    ctx.fillRect(50, 50, 100, 300);
+    // ctx.fillRect(50, 50, 100, 300);
 
-    // this.point.update();
-    //
-    // ctx.arc(this.point.x, this.point.y, 30, 0, 2*Math.PI);
-    // ctx.fill();
+    this.point.update();
+
+    ctx.arc(this.point.x, this.point.y, 30, 0, 2*Math.PI);
+    ctx.fill();
   }
 }
