@@ -25,13 +25,11 @@ class App {
     this.canvas.width = this.stageWidth*2;
     this.canvas.height = this.stageHeight*2;
     this.ctx.scale(2, 2);
-    this.ctx.fillStyle = 'red';
-    this.ctx.fillRect(300, 300, 500, 200);
+    // this.ctx.fillStyle = 'red';
+    // this.ctx.fillRect(300, 300, 500, 200);
 
-    this.wave.resize(this.stageWidth, this.stageHeight);
+    // this.wave.resize(this.stageWidth, this.stageHeight);
     console.log("jeonjikk, resize");
-    // this.ctx.fillStyle = "red";
-    // this.ctx.fillRect(10, 10, 100, 500);
   }
 
   animate(t) {
