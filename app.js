@@ -27,7 +27,7 @@ class App {
     this.ctx.scale(2, 2);
 
     this.wave.resize(this.stageWidth, this.stageHeight);
-    console.log("jeonjikk");
+    console.log("jeonjikk, resize");
     // this.ctx.fillStyle = "red";
     // this.ctx.fillRect(10, 10, 100, 500);
   }
